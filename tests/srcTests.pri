@@ -3,6 +3,7 @@ DEPENDPATH += . ../../src/
 INCLUDEPATH += . ../../src/
 DESTDIR = ./
 CONFIG += qtestlib
+CONFIG += testcase # IMPORTANT
 
 unix:QMAKE_POST_LINK=./$$TARGET
 win32:QMAKE_POST_LINK=$${TARGET}.exe
